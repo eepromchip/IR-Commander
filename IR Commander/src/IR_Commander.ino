@@ -7,7 +7,7 @@ int pushButton = 2;
 void setup( )
 {
 pinMode(pushButton, INPUT);
-
+pushButton == LOW; 
 }
 
 void loop( ) {
@@ -23,4 +23,4 @@ void loop( ) {
 
 
 
-}//
+}
